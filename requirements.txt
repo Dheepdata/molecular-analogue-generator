@@ -1,0 +1,1 @@
+rdkit\nrequests\npandas\nnumpy\nmatplotlib\nipython\njupyter\nipykernel\npytest\n

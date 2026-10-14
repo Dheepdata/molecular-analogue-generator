@@ -1,0 +1,1 @@
+.venv/\nvenv/\n.env\n__pycache__/\n*.py[cod]\n.ipynb_checkpoints/\n.pytest_cache/\n*.egg-info/\nbuild/\ndist/\n*.csv\n
