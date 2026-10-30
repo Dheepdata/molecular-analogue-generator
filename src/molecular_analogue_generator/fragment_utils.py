@@ -8,6 +8,14 @@ def set_original_idx(mol):
 
     return mol
 
+def set_original_bond_idx(mol):
+
+    for bond in mol.GetBonds():
+        bond.SetIntProp("original_bond_idx", bond.GetIdx())
+        bond.SetProp("molBondMapNumber", str(bond.GetIdx()))
+
+    return mol
+
 def find_current_idx(mol, original_idx):
     for atom in mol.GetAtoms():
         if atom.HasProp("original_idx"): 

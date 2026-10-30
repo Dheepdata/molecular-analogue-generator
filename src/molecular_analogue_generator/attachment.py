@@ -1,4 +1,6 @@
+import rdkit
 from rdkit import Chem
+
 from .fragment_utils import get_core_dummy_info
 
 def attach_replacement(core, replacement, core_dummy_neighbor_original_idx):
